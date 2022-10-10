@@ -2,10 +2,95 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
 }
+
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  text-align: left;
+  background-color: rgb(238, 177, 97);
+}
+.nav-right{
+  text-align: right;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(238, 177, 97);
+}
+.logo{
+  width: 45px;
+  float:left;
+  border-radius: 50%;
+  margin-top:3px;
+  margin-left: 20px;
+}
+.register , .product{
+  margin-right: 250px;
+}
+.login{
+  margin-right:10px;
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  margin-left: 550px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid  rgb(238, 177, 97);
+}
+
+.app-Button{
+  margin: 25px;
+  padding: 10px;
+  width: 130px;
+  background-color: rgb(42, 175, 228);
+  border:1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: -30px;
+  margin-left: 120px;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  border: 1px solid rgb(238, 177, 97);
+  padding: 5px;
+}
+.product-list ul{
+  margin: 0;
+}
+.search-product-box {
+  width: 400px;
+  margin: 20px;
+  height: 38px;
+  padding-left: 30px;
+  border: solid 1px rgb(238, 177, 97);
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
